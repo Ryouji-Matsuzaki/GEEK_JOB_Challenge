@@ -14,9 +14,12 @@
     <body>
         <h1>for文２</h1>
         <%
+        String test="";
+        
         for(int i=0;i<30;i++){
-        out.print("Ａ");
+            test=test+"A";
         }
+        out.print(test);
         %>
     </body>
 </html>
