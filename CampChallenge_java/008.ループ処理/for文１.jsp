@@ -14,8 +14,8 @@
     <body>
         <h1>for文1</h1>
         <%
-        long num =8;
-        for(int i = 0;i<20;i++){
+        long num =1;
+        for(int i = 1;i<=20;i++){
            num=num*8;}
         out.print(num);
         %>
